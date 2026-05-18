@@ -31,6 +31,12 @@
                     <button onclick="setmedia('yes')">My Collection</button>
                 </form>
             </div>
+            <div class="thingy">
+                <h2 style="margin-top: 20px;">Panic System</h2>
+                <form>
+                    <input type="text" placeholder="button" onkeyup="setpanicbutton(this.value)" class="form"></input>
+                </form>
+            </div>
         </div>
         <script>function setTitle(value) {document.title = value || "Google"; localStorage.setItem("title", value)};</script>
         <script>function setmedia(value) {localStorage.setItem("media", value)};</script>
