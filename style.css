@@ -20,7 +20,7 @@
     width: 100%;
 }
 .title-main:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 #fact {
     display: inline-block;
@@ -29,7 +29,7 @@
     margin-top: -1rem;
 }
 #fact:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 #sub {
     font-size: 3rem;
