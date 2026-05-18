@@ -175,7 +175,17 @@
     padding: 5px;
     text-align: center;
 }
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.medias {
+    width: 900px;
+    height: 600px;
 
+}
 body {
     font-family: "Roboto";
     background-color: #5e7594;
