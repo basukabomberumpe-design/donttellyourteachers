@@ -1,5 +1,5 @@
 let idk = localStorage.getItem("title")
-function setTitle(value) {document.title = value || "The Hub";}
+function setTitle(value) {document.title = value || "Google";}
 if (idk === null) {
     setTitle("Google")
 } else {
