@@ -1,12 +1,8 @@
-let button = localStorage.getItem("panicbutton");
-let link = localStorage.getItem("paniclink");
+var panicbutton = localStorage.getItem("panicbutton") || "]";
+var panicLink = localStorage.getItem("panicLink") || "https://google.com";
 
-document.addEventListener("keydown", (event) => {
-    if (event.key === button) {
-        if (link === null) {
-            window.location.href = "https://google.com";
-        } else {
-            window.location.href = link;
-        }
-    }
+document.addEventListener("keydown", function (e) {
+  if (e.key === panicbutton) {
+    window.location.href = panicbutton;
+  }
 });
