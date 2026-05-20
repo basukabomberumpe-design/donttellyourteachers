@@ -29,14 +29,14 @@
             </div>
             <div class="thingy">
                 <h2 style="margin-top: 20px;">Media Chooser</h2>
-                <form onsubmit="return false;">
+                <form onsubmit="return false;" style="display: flex; flex-direction: column;">
                     <button onclick="setmedia(null)">Normal Movies</button>
                     <button onclick="setmedia('yes')">My Collection</button>
                 </form>
             </div>
             <div class="thingy">
                 <h2 style="margin-top: 20px;">Panic System</h2>
-                <form>
+                <form style="display: flex; flex-direction: column;"">
                     <input type="text" placeholder="button" onkeyup="setpanicbutton(this.value)" class="form" id="3"></input>
                     <input type="text" placeholder="link (remember https://)" onkeyup="setpaniclink(this.value)" class="form" id="4"></input>
                 </form>
